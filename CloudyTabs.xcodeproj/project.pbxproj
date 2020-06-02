@@ -340,7 +340,7 @@
 			};
 			buildConfigurationList = 03977FCA18C3F98A00DC499C /* Build configuration list for PBXProject "CloudyTabs" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
