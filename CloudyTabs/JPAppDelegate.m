@@ -8,8 +8,6 @@
 
 #import "JPAppDelegate.h"
 
-#import <Sparkle/Sparkle.h>
-
 #import "JPLaunchAtLoginManager.h"
 #import "JPUserDefaultsController.h"
 #import "DSFavIconManager.h"
@@ -76,7 +74,6 @@ const NSSize ICON_SIZE = {19, 19};
     [self createStatusItem];
     [self updateMenu];
     [self setupQueue];
-    [self setupSparkle];
     [self updateUserInterface];
 }
 
@@ -168,12 +165,6 @@ const NSSize ICON_SIZE = {19, 19};
 - (NSString *)appBundleVersion
 {
     return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-}
-
-- (void)setupSparkle
-{
-    SUUpdater *updater = [[SUUpdater class] sharedUpdater];
-    [updater checkForUpdatesInBackground];
 }
 
 - (void)setupQueue
