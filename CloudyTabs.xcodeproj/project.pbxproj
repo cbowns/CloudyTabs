@@ -642,14 +642,9 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3C7269R37R;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/CloudyTabs",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CloudyTabs/CloudyTabs-Prefix.pch";
 				INFOPLIST_FILE = "CloudyTabs/CloudyTabs-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshparnham.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CloudyTabs;
@@ -664,14 +659,9 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 3C7269R37R;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PROJECT_DIR)/CloudyTabs",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CloudyTabs/CloudyTabs-Prefix.pch";
 				INFOPLIST_FILE = "CloudyTabs/CloudyTabs-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joshparnham.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = CloudyTabs;
